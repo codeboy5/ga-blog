@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “खुश रहने के लिए रेसिपी”
+title: खुश रहने के लिए रेसिपी
 author: Student
 categories: [Happiness, TED Talk]
 image: assets/images/19.png
