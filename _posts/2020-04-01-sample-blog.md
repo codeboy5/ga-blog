@@ -6,6 +6,7 @@ categories: [Happiness, TED Talk]
 image: assets/images/18.jpg
 featured: true
 comments: true
+case_study: true
 ---
 
 1. इस चर्चा में डॉ रॉबर्ट वाल्डिंगर पूछते हैं कि वह क्या है जो **जीवन में हमें स्वस्थ और खुश रखता** है।

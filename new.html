@@ -1,0 +1,36 @@
+---
+layout: default
+title: Case Studies.
+permalink: /new.html
+---
+
+<p> इस भाग में एक केस स्टडी (Case study) के द्वारा मानव व्यवहार के कुछ व्यावहारिक और
+    भावात्मक पहलुओं को उजागर करना है । ये सामाजिक, सांस्कृतिक, या /और मनोवैज्ञानिक हो सकते
+    हैं । हर कहानी से हमें एक सीख मिलेगी और समझ आएगी कि किरदार किस तरह से सामाजिक
+    और सांस्कृतिक समझ के कारण अपनी समस्या को मनोवैज्ञानिक तौर पर और अधिक उलझा या
+    सुलझा रहा है और हमें एक सही सीख लेने के लिए प्रोत्साहित कर रहा हैं </p>
+
+<!-- Featured
+================================================== -->
+<section class="featured-posts">
+    <div class="section-title">
+        <h2><span>Featured Case Studies</span></h2>
+    </div>
+    <div class="row">
+
+    {% for post in site.posts %}
+        
+        {% if post.case_study == true %}
+
+            {% if post.featured == true %}
+
+                {% include featuredbox.html %}
+
+            {% endif %}
+
+        {% endif %}
+
+    {% endfor %}
+
+    </div>
+</section>
