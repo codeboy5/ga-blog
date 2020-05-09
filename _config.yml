@@ -2,8 +2,8 @@
 name: "Lessons from Applied Psychology"
 title: "Lessons from Applied Psychology"
 description: "व्यावहारिक मनोविज्ञान के सबक़"
-logo: "assets/images/logo2.png"
-favicon: "assets/images/logo2.png"
+logo: "assets/images/logo.png"
+favicon: "assets/images/logo.png"
 baseurl: /ga-blog
 google_analytics: "UA-46278016-1"
 disqus: "applied-psychology"
